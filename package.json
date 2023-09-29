@@ -1,22 +1,22 @@
 {
     "name": "hackernews",
     "version": "1.0.0",
-    "description": "Hacker News Daily/Weekly/Monthly headlines",
+    "description": "Hacker News Daily Point Above 100 headlines",
     "main": "index.js",
     "scripts": {
       "test": "mocha -u qunit --timeout 15000"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/headllines/hackernews.git"
+      "url": "git+https://github.com/yhj-zone/hackernews-daily.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/headllines/hackernews/issues"
+      "url": "https://github.com/yhj-zone/hackernews-daily/issues"
     },
-    "homepage": "https://github.com/headllines/hackernews#readme",
+    "homepage": "https://github.com/yhj-zone/hackernews-daily#readme",
     "dependencies": {
       "@octokit/auth-app": "^2.4.13",
       "@octokit/core": "^3.1.2",
