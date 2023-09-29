@@ -20,7 +20,8 @@ const getHeadlines = async (date) => {
           return `${
             index + 1
           }. **[${title}](${link})** | [comments](${comments})
-          `;
+
+`;
         })
         .join("");
       return contents;
