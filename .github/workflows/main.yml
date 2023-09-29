@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 19.x
       - name: npm install
         run: npm install --only=prod
         working-directory: .
@@ -21,4 +21,4 @@ jobs:
         working-directory: .
         # for github token
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.ISSUES_TOKEN }}
