@@ -20,6 +20,7 @@
     "dependencies": {
       "@octokit/auth-app": "^2.4.13",
       "@octokit/core": "^3.1.2",
+      "@octokit/rest": "^20.0.2",
       "axios": "^0.19.2",
       "dayjs": "^1.8.32",
       "fast-xml-parser": "^4.3.1",
