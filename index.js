@@ -26,3 +26,4 @@ const run = async (date) => {
 run(new Date()).catch((err) => {
   throw err;
 });
+// Activate action
